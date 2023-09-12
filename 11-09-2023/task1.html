@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Table task</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body style="margin: 0; padding: 50px; background-image: url(bgimg); " >
+    <div class="tablemain">
+        <center>
+            <table border="1" width="100%" height="100px">
+                <tr >
+                    <th class="toplogo" >Wellcome</th>
+                </tr>
+            </table>
+            <br>
+            <table border="1" width="100%" height="480px">
+                <div class="table1">
+                    <tr style="background-color: azure;">
+                        <th>
+                            <h2 class="logo">Wallpaper</h2>
+                            <!-- <img class="bgimg" src="bgimg" alt="bg" width="100%" height="430px"> -->
+                            <div class="smalling">
+                                <img src="bgimg" alt="img">
+                                <img src="bgimg" alt="img">
+                                <img src="bgimg" alt="img"><br>
+                                <img src="bgimg" alt="img">
+                                <img src="bgimg" alt="img">
+                                <img src="bgimg" alt="img">
+                            </div>
+                        </th>
+                    </tr>
+                </div>
+            </table>
+            <br>
+            <table border="1" width="100%" height="300px">
+                <div class="table2">
+                    
+                    <tr>
+                        <th>
+                            <div class="container">
+                                <form action="process.php" method="post">
+                                    <label for="name">login</label>
+                                    <input type="text"  placeholder="Name" required>
+                        
+                                    <input type="email"  placeholder="Enter email id" required>
+                                    <label for="name">Message here:</label>
+                                    <textarea id="message" name="message" rows="4" required></textarea>
+                                    
+                                    <button type="submit">Submit</button>
+                                </form>
+                            </div>
+                        </th>
+                    </tr>
+                </div>
+            </table>
+        </center>
+    </div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    width: 100%;
+    background-color: rgb(221, 230, 238);
+    font-family: sans-serif;
+}
+.tophead {
+    background-color: rgb(18, 18, 103);
+    position: fixed;
+    width: 100%;
+    
+}
+
+.tophead h1 {
+    color: #eee;
+    font-size: 80px;
+}
+.tophead span {
+    color: rgb(52, 130, 182);
+}
+.tophead h3 {
+    color: #eee;
+    margin-left: 210px;
+    margin-top: -15px;
+    padding-bottom: 5px;
+}
+.tophead img {
+    width: 150px;
+    height: auto;
+    float: right;
+    margin-top: -90px;
+    margin-right: 30px;
+    
+}
+.headcontent {
+    /* float: right; */
+    margin-left: 500px; 
+    margin-top: -30px;
+
+}
+.headcontent ul {
+    list-style: none;
+    display: flex;
+    
+}
+.headcontent ul li {
+    padding: 10px 30px; 
+    position: relative;
+    cursor: pointer;
+    flex-direction: none;
+    
+}
+.headcontent ul li a {
+    text-decoration: none;
+    color: #eee;
+}
+.headcontent ul li a:hover {
+    color: brown;
+}
+.contactone  {
+    display: none;
+}
+.headcontent ul li:hover .contactone {
+    display: block;
+    position: absolute;
+    color: #080808;
+    background-color: #eee;
+    margin-top: 5px;
+    border-radius: 5px;
+    
+    
+}
+.headcontent ul li:hover .contactone ul {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/* content starts here */
+
+.middle img {
+    width: 100%;
+    height: auto;
+}
+/* Footer  starts here */
+
+.bottom {
+    background-color: rgb(18, 18, 103);
+    padding: 50px 100px;
+    /* margin-top: calc(80vh); */
+    margin-top: auto;
+
+}
+.bottom h2 {
+    padding: 10px 0;
+    color: #eee;
+    font-style: oblique;
+}
+.branch1 {
+    background-color:rgb(160, 180, 190);
+    margin-right: 770px;
+    padding: 20px 50px;
+    border-radius: 15px;
+    /* border-style: groove solid; */
+    
+}
+.branch2 {
+    background-color: rgb(160, 180, 190);
+    padding: 20px 50px;
+    padding-bottom: 38px;
+    border-radius: 15px;
+    margin-right: 455px;
+    margin-left: 330px;
+    margin-top: -200px
+
+}
+.middle {
+    background-color: rgb(160, 180, 190);
+    height: fit-content;
+}
+.bottomadd {
+    float: right;
+    margin-top: -230px;
+
+}
+.bottomadd iframe {
+    width: 400px;
+    height: 190px;
+    border-radius: 10px;
+}
+

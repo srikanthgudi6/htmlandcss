@@ -1,0 +1,29 @@
+* {
+    /* position: absolute; */
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+.text {
+    font-size: 65px ;
+    color:aliceblue;
+    margin-top: -900px;
+}
+
+.text p {
+    font-size: 35px;
+    color:gold;
+}
+.text p span {
+    color: rgb(232, 228, 228);
+    font-size: 50px;
+    
+}
+.text p a  {
+    text-decoration: none;
+    color: rgb(232, 228, 228);
+}
+.text p a:hover {
+    color: blue;
+}

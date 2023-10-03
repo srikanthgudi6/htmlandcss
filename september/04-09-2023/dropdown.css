@@ -1,0 +1,91 @@
+.menu_bar {
+    background-color: rgb(44, 44, 64);
+    height: 80px;
+    width: vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5% ;
+}
+
+.logo {
+    color: azure;
+    font-size: 70px;
+}
+
+.logo span {
+    color:rgb(104, 104, 199);
+}
+
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu_bar ul li {
+    padding: 10px 30px; 
+    position: relative;
+}
+
+.menu_bar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.menu_bar ul li a:hover {
+    color: rgb(104, 104, 199);
+}
+
+.dropdown_menu{
+    display: none;
+   
+}
+
+.menu_bar ul li:hover .dropdown_menu {
+    display: block; 
+    position: absolute;
+    background-color: rgb(44, 44 , 64);
+    width: 180px;
+    left: 0;
+    top: 100%;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul {
+    display: block;
+    margin: 10px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul li {
+    width: 150px;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgb(51, 63, 74);
+}
+
+.fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 0px;
+}
+
+.dropdown_menu1 {
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul li:hover .dropdown_menu1 {
+    display: block;
+    position: absolute;
+    background-color: rgb(44, 44 , 64);
+    left: 170px;
+    padding-top: 0px;
+    width: 180px;
+    top: -10px;
+    
+}
+.hero img {
+    height: calc(100vh - 80px);
+    width: 100%;
+}
